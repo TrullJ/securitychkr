@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-VIRUSTOTAL_API_KEY = 'efdb3e93aa305e76f42fa549258797ec0d6a5882df13340220018ca4c0135d15'
+VIRUSTOTAL_API_KEY = '<ENTER YOUR API KEY>'
 VIRUSTOTAL_URL = 'https://www.virustotal.com/vtapi/v2/url/report'
 
 @app.route('/validateURL', methods=['GET'])
